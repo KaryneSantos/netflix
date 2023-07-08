@@ -121,3 +121,27 @@ nav{
     text-decoration: none;
     color: white;
 }
+
+.pesquisa input[type="text"] {
+    width: 150px;
+    padding: 5px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.pesquisa button[type="submit"] {
+    padding: 15px 15px;
+    background-color: #e50914;
+    background-image: url(img/lupa.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: contain;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.pesquisa button[type="submit"]:hover {
+    background-color: #c2060e;
+}
