@@ -1,0 +1,123 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #141414;
+}
+
+.header{
+    background-color: black;
+    height: 40px;
+    max-width: 100%;
+    padding: 10px;
+}
+
+.container{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    color: white;
+}
+
+
+img{
+    height: 60px;
+    margin-right: 850px;
+    margin-top: -10px;
+}
+
+nav{
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: -20px;
+}
+
+.legenda{
+    margin: 10px;
+}
+
+.btn-assinar {
+    margin-right: 10px;
+    height: 35px;
+    text-align: center;
+    width: 170px;
+    border-radius: 3px;
+    background-color: red;
+    line-height: 35px;
+    position: relative;
+    margin-bottom: 5px ;
+}
+
+
+
+.btn-entrar{
+    border: 1px solid gray;
+    padding: 5px 5px 5px 10px;
+    width: 50px;
+    font-size: 15px;
+}
+
+.btn-assinar-hover{
+    background-color: rgb(224, 3, 3);
+    cursor: pointer;
+}
+
+.btn-entrar-hover{
+    box-shadow: 0px 0px 5px gray;
+    cursor: pointer;
+}
+
+.article {
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    padding: 20px;
+    position: relative;
+}
+
+.article h1{
+    font-size: 50px;
+    margin-bottom: 10px;
+}
+
+.descricao{
+    font-size: 17px;
+}
+
+.videos-filmes-series {
+    display: flex;
+    position: fixed;
+}
+.videos-filmes-series .video-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    transition: transform 0.3s ease;
+}
+
+.videos-filmes-series .video-container:hover{
+    transform: scale(1.1);
+}
+
+.lancamentos-filmes-series p{
+    margin-top: 40px;
+}
+
+.videos-filmes-series img{
+    margin-top: 4.5px;
+    height: 10em;
+    border-radius: 2px;
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+.videos-filmes-series legend{
+    margin-top: 5px;
+    margin-left: 25%;
+    cursor: pointer;
+}
+
+.videos-filmes-series a{
+    text-decoration: none;
+    color: white;
+}
