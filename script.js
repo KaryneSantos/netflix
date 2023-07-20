@@ -87,7 +87,3 @@ function botaoAssinar() {
     adicionarFilmes();
     pesquisarFilmesSeries();
   });
-
-  function teste(){
-    console.log("oi")
-  }
