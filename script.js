@@ -80,39 +80,14 @@ function botaoAssinar() {
   }
   var secaoLancamentos = document.querySelector('.lancamentos-filmes-series');
   secaoLancamentos.appendChild(div);
-
-  
-    var setaEsquerda = document.querySelector('.seta-esquerda');
-    var setaDireita = document.querySelector('.seta-direita');
-
-    setaEsquerda.classList.add('seta');
-    setaDireita.classList.add('seta');
-
-    setaEsquerda.addEventListener('click', function() {
-        moverFilmes('esquerda');
-    });
-
-    setaDireita.addEventListener('click', function() {
-        moverFilmes('direita');
-    });
  }
-
- function moverFilmes(direcao) {
-  var container = document.getElementById('filmes-container');
-  var filmeWidth = container.querySelector('.video-container').offsetWidth;
-
-  if (direcao === 'esquerda') {
-      container.scrollLeft -= filmeWidth;
-  } else if (direcao === 'direita') {
-      container.scrollLeft += filmeWidth;
-  }
-}
-
-
-
   document.addEventListener('DOMContentLoaded', function(){
     botaoAssinar();
     botaoEntrar();
     adicionarFilmes();
+    pesquisarFilmesSeries();
   });
 
+  function teste(){
+    console.log("oi")
+  }
